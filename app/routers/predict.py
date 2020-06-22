@@ -9,7 +9,7 @@ log = logging.getLogger(__name__)
 router = APIRouter()
 
 
-class Item(BaseModel):
+class Song(BaseModel):
     """Use this data model to parse the request body JSON."""
 
     x1: float = Field(..., example=3.14)
@@ -28,9 +28,9 @@ class Item(BaseModel):
 
 
 @router.post('/predict')
-async def predict(item: Item):
+async def predict(Song: Song):
     """Make random baseline predictions for classification problem."""
-    X_new = item.to_df()
+    X_new = Song.to_df()
     log.info(X_new)
     y_pred = random.choice([True, False])
     y_pred_proba = random.random() / 2 + 0.5
