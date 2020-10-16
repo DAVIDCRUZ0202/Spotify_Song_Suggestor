@@ -1,13 +1,14 @@
-# DS Build Week 
+## Pulsify 
+This is an artifact project where I mainly devoted my time to developing software endpoints. I also assisted in data cleaning and pre-processing. [Check out the Team Repo for more!](https://github.com/DAVIDCRUZ0202/DataEngineer). For open-source purposes, I'm keeping this repository pinned so that others can learn from it and implement if they want. [My blog post](https://davidcruz0202.github.io/2020-07-01-pulsify/) has more notes about what did , I highly recommend reading through it.
+
+## DS Build Week 
 
 Starter code to deploy your machine learning model as an API on Heroku. You can deploy a baseline in 10 minutes.
 
 ## Tech stack
 - [FastAPI](https://fastapi.tiangolo.com/): Web framework. Like Flask, but faster, with automatic interactive docs.
-- [Flake8](https://flake8.pycqa.org/en/latest/): Linter, enforces PEP8 style guide.
 - [Heroku](https://devcenter.heroku.com/): Platform as a service, hosts your API.
 - [Pipenv](https://pipenv.pypa.io/en/latest/): Reproducible virtual environment, manages dependencies.
-- [Pytest](https://docs.pytest.org/en/stable/): Testing framework, runs your unit tests.
 
 ## Getting started
 
@@ -90,18 +91,6 @@ Launch a Jupyter notebook
 ```
 jupyter notebook
 ```
-
-Run tests
-```
-pytest
-```
-
-Run linter
-```
-flake8
-```
-
-[calmcode.io videos - flake8](https://calmcode.io/flake8/introduction.html)
 
 ## Deploying to Heroku
 
