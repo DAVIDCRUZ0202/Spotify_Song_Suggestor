@@ -1,4 +1,5 @@
-## Pulsify 
+[Read Through My Blog!](https://davidcruz0202.github.io/2020-07-01-pulsify/)
+# Pulsify 
 This is an artifact project where I mainly devoted my time to developing software endpoints. I also assisted in data cleaning and pre-processing. [Check out the Team Repo for more!](https://github.com/DAVIDCRUZ0202/DataEngineer). For open-source purposes, I'm keeping this repository pinned so that others can learn from it and implement if they want. [My blog post](https://davidcruz0202.github.io/2020-07-01-pulsify/) has more notes about what did , I highly recommend reading through it.
 
 ## DS Build Week 
